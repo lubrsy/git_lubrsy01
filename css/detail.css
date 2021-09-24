@@ -1,0 +1,303 @@
+@font-face { 
+	font-family: 'icomoon'; 
+	src: url('../fonts/icomoon.eot?7kkyc2'); 
+	src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), 
+	url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), 
+	url('../fonts/icomoon.woff?7kkyc2') format('woff'), 
+	url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg'); 
+	font-weight: normal; font-style: normal; 
+}
+.de_container {
+	margin-top: 24px;
+}
+.crumb_wrap {
+	height: 25px;
+}
+.crumb_wrap a {
+	margin: 0 10px;
+}
+.crumb_wrap i {
+	font-family: "icomoon";
+}
+.preview_wrap {
+	width: 400px;
+	height: 588px;
+}
+.preview_img {
+	height: 398px;
+	border: 1px solid #ededed;
+}
+.preview_list {
+	position: relative;
+	height: 58px;
+	margin-top: 64px;
+}
+.list_item {
+	width: 300px;
+	height: 60px;
+	margin: 0 auto;
+}
+.list_item li {
+	float: left;
+	width: 56px;
+	height: 56px;
+	border: 2px solid transparent;
+	margin: 0px;
+}
+.list_item li.current {
+	border-color: #c81623;
+}
+.arrow_prev,
+.arrow_next {
+	position: absolute;
+	top: 1px;
+}
+.arrow_prev {
+	left: 0;
+}
+.arrow_next {
+	right: 0;
+}
+.itemInfo_wrap {
+	width: 718px;
+}
+.sku_name {
+	height: 30px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.news {
+	height: 35px;
+	color: #e12228;
+}
+.summary dl,
+.choose dl {
+	overflow: hidden;
+}
+.summary dt,
+.summary dd,
+.choose dt,
+.choose dd {
+	float: left;
+}
+.summary dt,
+.choose dt {
+	width: 60px;
+	padding-left: 10px;
+	line-height: 36px;
+}
+.summary_price,
+.summary_promotion {
+	position: relative;
+	padding: 10px 0;
+	background-color: #fee9eb;
+}
+.price {
+	font-size: 24px;
+	color: #e12228;
+}
+.summary_price a {
+	color: #c81623;
+}
+.remark {
+	position: absolute;
+	right: 10px;
+	top: 18px;
+}
+.summary_promotion {
+	padding-top: 0;
+}
+.summary_promotion dd {
+	width: 550px;
+	line-height: 28px;
+}
+.summary_promotion em {
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	padding: auto auto;
+	background-color: #c81623;
+	color: #fff;
+}
+.summary_support dd {
+	line-height: 36px;
+}
+.summary_address dd {
+	width: 550px;
+	line-height: 36px;
+}
+.summary_address i {
+	font-family: "icomoon";
+}
+.choose {
+	border-top: 1px solid #ededed;
+}
+.choose dl {
+	margin-bottom: 7px;
+}
+.choose dt {
+	line-height: 34px;
+}
+.choose a {
+	float: left;
+	height: 32px;
+	padding: 0 14px;
+	margin-right: 8px;
+	line-height: 32px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+}
+/* 给颜色选择单独设置样式 */
+.choose_color {
+	margin-top: 15px;
+}
+.choose_color dt {
+	line-height: 43px;
+}
+.choose_color a {
+	width: 80px;
+	height: 41px;
+	padding: 0;
+	text-align: center;
+	line-height: 41px;
+}
+.choose .current {
+	border-color: #c81623;
+}
+/* 购物单独设置样式 */
+.choose_btns {
+	margin-top: 21px;
+}
+.choose_amount {
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	width: 51px;
+	height: 47px;
+}
+.choose_amount input {
+	width: 33px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	border: 1px solid #ccc;
+	border-radius: 0;
+}
+.choose_amount a {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	background-color: #f1f1f1;
+	color: #666;
+	border: 1px solid #ccc;
+	border-left: none;
+}
+.add {
+	top: 0;
+}
+.reduce {
+	bottom: 0;
+	border-top: none;
+}
+.addcar {
+	float: left;
+	width: 142px;
+	height: 47px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 47px;
+	margin-left: 10px;
+	background-color: #c81623;
+	color: #fff;
+}
+.product_detail {
+	margin-bottom: 20px;
+}
+.aside {
+	width: 208px;
+	border: 1px solid #ccc;
+}
+.tab_list li {
+	float: left;
+	height: 33px;
+	text-align: center;
+	line-height: 33px;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.first_tab {
+	width: 104px;
+}
+.second_tab {
+	width: 103px;
+	border-left: 1px solid #ccc;
+}
+.tab_list .current {
+	background-color: #fff;
+	color: #c81623;
+	border-bottom: none;
+}
+.tab_con {
+	padding: 0 10px;
+}
+.tab_con li {
+	border-bottom: 1px solid #ccc;
+}
+.tab_con li h5 {
+	/* 超出的文字省略号显示 */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 400;
+}
+.aside_price {
+	font-weight: 700;
+	margin: 10px 0;
+}
+.aside_addcar {
+	display: block;
+	width: 88px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	margin: 10px auto;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+}
+.detail {
+	width: 977px;
+}
+.detail_tab_list {
+	height: 38px;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+}
+.detail_tab_list li {
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 20px;
+	cursor: pointer;
+}
+.detail_tab_list .current {
+	background-color: #c81623;
+	color: #fff;
+}
+.item_info {
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.item_info li {
+	line-height: 22px;
+}
+.more {
+	float: right;
+	font-weight: 700;
+	font-family: "icomoon";
+}
