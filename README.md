@@ -1,3 +1,3 @@
-# git_lubrsy01
+# pinyougou
 
 A static web page imitating Jingdong's official website.
